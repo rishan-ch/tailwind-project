@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* to make a screen occupy whole screen */
+@layer utilities{
+    .section-min-height{
+        min-height: calc(100vh - 68px);
+    }
+}
